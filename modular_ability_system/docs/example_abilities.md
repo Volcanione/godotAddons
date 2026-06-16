@@ -1,5 +1,10 @@
 # Modular Ability System 通用示例
 
+相关文档：
+
+- [架构分析](architecture.md)
+- [项目接入指南](integration_guide.md)
+
 ## 使用方式
 
 插件创建出的技能是 `MASAbilityDef` Resource。项目侧需要在角色、武器或技能控制节点上添加 `MASAbilityComponent`，并把技能资源加入 `starting_abilities`。
